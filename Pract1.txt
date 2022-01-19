@@ -1,0 +1,51 @@
+git clone
+
+Sirve para duplicar(o clonar) un repositorio a nuestra eleccion en la carpeta que queramos.
+
+git status
+
+Sirve para comprobar si son las mismas versiones (o está en el mismo estado) los archivos online y los del pc local.
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Pract1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+git add .
+
+Actualiza archivos nuevos al repositorio.
+
+/No se ve nada/
+
+git commit -m "Practica_1"
+[main f552408] Practica_1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Pract1.txt
+
+Añade archivos nuevos al repositorio.
+
+git push
+
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 266 bytes | 133.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/luisi73/hello-world.git
+   48fe276..f552408  main -> main
+
+Pública en github el repositorio nuevo.
+
+git checkout
+
+Compruebas si la versión del repositorio que está publicada es la última.
+
+M       Pract1.txt
+Your branch is up to date with 'origin/main'.

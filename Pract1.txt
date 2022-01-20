@@ -56,7 +56,14 @@ Para crear nuevos repositorios
 
 Reinitialized existing Git repository in C:/Users/lbarc/OneDrive - Universidad Pontificia Comillas/ICAI 7/PAT/Practica1/hello-world/.git/
 
-git config --global user.name "Luis Bueno Archaga"
+>git config --global user.name "Luis Bueno Archaga"
 /No aparece nada/
 
-Para cambiar el nombre del autor.
+Para cambiar el nombre del usuario.
+
+>mvn -v
+Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537)
+Maven home: C:\Program Files\apache-maven-3.8.4
+Java version: 15.0.2, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-15.0.2
+Default locale: es_ES, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
